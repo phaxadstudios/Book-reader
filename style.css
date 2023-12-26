@@ -21,6 +21,7 @@ body{
 .wrapper{
     background: #fff;
     height: 80vh;
+    width: 100%;
 }
 .logo p{
     font-family:cursive;
@@ -48,5 +49,8 @@ button {
 @media (max-width:789px) {
     .container{
     padding-left: 0;
+}
+.wrapper{
+    width: 100%;
 }
 }
