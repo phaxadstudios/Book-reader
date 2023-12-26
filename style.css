@@ -17,6 +17,7 @@ body{
     align-items: center;
     padding:3rem 0;
     padding-left:7rem;
+    flex-direction: column;
 }
 .wrapper{
     background: #fff;
@@ -30,7 +31,7 @@ body{
     font-weight: 800;
     
 }
-.wrapper h1{
+.container h1{
     padding-top: 1rem;
     font-size: 50px;
     font-weight: 800;
@@ -39,7 +40,7 @@ body{
     color: blueviolet;
     line-height:0.9;
 }
-.wrapper p{
+.container p{
 padding: 1rem 0;
 font-family: cursive;
 }
@@ -49,8 +50,5 @@ button {
 @media (max-width:789px) {
     .container{
     padding-left: 0;
-}
-.wrapper{
-    width: 100%;
 }
 }
